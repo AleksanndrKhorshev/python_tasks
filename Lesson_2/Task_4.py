@@ -4,7 +4,7 @@
 
 import random
 
-num = int(input("Ведите число: "))
+num = int(input("Ведите число: ")) #5
 my_list = []
 for i in range(num):
     my_list.append(random.randint(-num, num))
