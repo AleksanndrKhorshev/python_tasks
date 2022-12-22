@@ -2,7 +2,7 @@
 
 from random import Random, randint
 
-N = int(input('Введите число '))
+N = int(input('Введите число ')) #5
 numbers = []
 for i in range(N):
     numbers.append(randint(-N,N+1))
